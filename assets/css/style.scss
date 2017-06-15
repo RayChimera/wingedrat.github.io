@@ -1,9 +1,18 @@
 ---
 ---
 
-@import 'jekyll-theme-cayman'; 
-.inline-block {
+@import 'jekyll-theme-cayman';
+.lobster {
+  font-family: 'Lobster', cursive;
+}
+
+.contact-block {
   display: inline-block;
+  margin: 50px;
+}
+
+.centered_text {
+  text-align: center;
 }
 
 .network-icon {

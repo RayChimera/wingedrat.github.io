@@ -22,10 +22,15 @@
   display: inline-block;
   height: 200px;
   width: 400px;
-  margin: 5px;
+  margin-bottom: 50px;
 }
 
-.contact-block {
+.contacts-block {
+    margin: auto;
+    width: 300px;
+}
+
+.social-link-block {
   display: inline-block;
   margin: 10px;
 }

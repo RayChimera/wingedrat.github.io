@@ -2,6 +2,21 @@
 ---
 
 @import 'jekyll-theme-cayman'; 
+.inline-block {
+  display: inline-block;
+}
+
+.network-icon {
+  width: 150px;
+  background-size: 150px;
+  display: inline-block;
+  height: 150px;
+}
+
 .telegram {
-  background-image: url(assets/images/logo/telegram.png);
+  background-image: url(../../assets/images/logo/telegram.svg);
+}
+
+.vk {
+  background-image: url(../../assets/images/logo/vk.svg);
 }

@@ -3,6 +3,8 @@
 
 @import 'jekyll-theme-cayman';
 
+/* Head */
+
 .page-header {
   color: #fff;
   text-align: center;
@@ -14,33 +16,20 @@
   font-family: 'Lobster', cursive;
 }
 
+/* Blocks */
+
+.category-block {
+  display: inline-block;
+  height: 250px;
+  width: 400px;
+}
+
 .contact-block {
   display: inline-block;
   margin: 50px;
 }
 
-.centered_text {
-  text-align: center;
-}
-
-.network-icon {
-  width: 150px;
-  background-size: 150px;
-  display: inline-block;
-  height: 150px;
-}
-
-.telegram {
-  background-image: url(../../assets/images/social/telegram.svg);
-}
-
-.vk {
-  background-image: url(../../assets/images/social/vk.svg);
-}
-
-.mail {
-  background-image: url(../../assets/images/social/mail.svg);
-}
+/* Social icons */
 
 .facebook {
   background-image: url(../../assets/images/social/facebook.svg);
@@ -54,34 +43,59 @@
   background-image: url(../../assets/images/social/google+.svg);
 }
 
-.linkedin {
-  background-image: url(../../assets/images/social/linkedin.svg);
-}
-
 .lastfm {
   background-image: url(../../assets/images/social/lastfm.svg);
 }
 
-.skype {
-  background-image: url(../../assets/images/social/skype.svg);
+.linkedin {
+  background-image: url(../../assets/images/social/linkedin.svg);
 }
 
-.twitter {
-  background-image: url(../../assets/images/social/twitter.svg);
+.mail {
+  background-image: url(../../assets/images/social/mail.svg);
 }
 
 .reddit {
   background-image: url(../../assets/images/social/reddit.svg);
 }
 
+.skype {
+  background-image: url(../../assets/images/social/skype.svg);
+}
+
 .stackoverflow {
   background-image: url(../../assets/images/social/stackoverflow.svg);
+}
+
+.telegram {
+  background-image: url(../../assets/images/social/telegram.svg);
 }
 
 .twitch {
   background-image: url(../../assets/images/social/twitch.svg);
 }
 
+.twitter {
+  background-image: url(../../assets/images/social/twitter.svg);
+}
+
+.vk {
+  background-image: url(../../assets/images/social/vk.svg);
+}
+
 .whatsapp {
   background-image: url(../../assets/images/social/whatsapp.svg);
+}
+
+/* Other */
+
+.centered_text {
+  text-align: center;
+}
+
+.network-icon {
+  width: 150px;
+  background-size: 150px;
+  display: inline-block;
+  height: 150px;
 }

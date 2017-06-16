@@ -1,4 +1,21 @@
 theme: jekyll-theme-cayman
 
 title: [RogueLabs]
+email: rogue@roguelabs.tech
 description: [Andrey Yudin's personal site]
+
+url: "https://www.roguelabs.tech"
+locale: "ru-RU"
+repository: "WingedRat/wingedrat.github.io"
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      read_time: true
+      layout: default
+      comments: true
+      related: true
+

@@ -18,4 +18,5 @@ defaults:
       layout: default
       comments: true
       related: true
+      excerpt_separator: <!--more-->
 

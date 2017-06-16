@@ -10,8 +10,8 @@
   padding: 0;
   color: #fff;
   text-align: center;
-  background-color: black;
-  background-image: linear-gradient(320deg,black,grey,white);
+  background-color: dimgrey;
+  background-image: none;
 }
 
 .lobster {
@@ -26,10 +26,15 @@
 
 .header-img {
     display: inline-block;
+    position: absolute;
+    left: 0px;
+    padding: 16px;
 }
 
 .header-sitename {
     display: inline-block;
+    position: absolute;
+    left: 48px;
 }
 
 /* Blocks */

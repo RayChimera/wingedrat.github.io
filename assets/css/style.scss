@@ -125,8 +125,13 @@
 
 .error-img {
   display: inline-block;
+  height: 256px;
+  width: 256px;
+  margin-left: 50px;
 }
 
 .error-text {
   display: inline-block;
+  position: relative;
+  bottom: 64px;
 }

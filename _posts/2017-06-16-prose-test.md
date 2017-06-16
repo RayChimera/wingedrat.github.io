@@ -1,9 +1,6 @@
 ---
 published: true
-layout: default
 comments: true
-date: '2017-06-16 11:22:00 -0600'
-categories: test
 ---
 ## Тест prose.io
 

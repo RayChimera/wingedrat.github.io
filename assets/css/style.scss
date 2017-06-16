@@ -133,5 +133,20 @@
 .error-text {
   display: inline-block;
   position: relative;
-  bottom: 64px;
+  bottom: 96px;
+  left: 32px;
+}
+
+/* From Stack: https://stackoverflow.com/questions/6868009/html-anchor-disable-style */
+
+a.nostyle:link {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: auto;
+}
+
+a.nostyle:visited {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: auto;
 }

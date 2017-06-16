@@ -19,22 +19,27 @@
 }
 
 .project-name {
-    text-align: left;
-    margin-left: 1rem;
-    font-size: 2.5rem;
+  text-align: left;
+  margin-left: 1rem;
+  font-size: 2.5rem;
 }
 
 .header-img {
-    display: inline-block;
-    position: absolute;
-    left: 0px;
-    padding: 16px;
+  display: inline-block;
+  position: absolute;
+  left: 0px;
+  padding: 16px;
 }
 
 .header-sitename {
-    display: inline-block;
-    position: absolute;
-    left: 48px;
+  display: inline-block;
+  position: absolute;
+  left: 48px;
+}
+
+.header-button {
+  display: inline-block;
+  padding: 16px;
 }
 
 /* Blocks */

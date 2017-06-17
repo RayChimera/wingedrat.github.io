@@ -5,7 +5,6 @@ email: rogue@roguelabs.tech
 description: [Andrey Yudin's personal site]
 
 url: "http://www.roguelabs.tech"
-baseurl: "/blog"
 locale: "ru-RU"
 repository: "WingedRat/wingedrat.github.io"
 

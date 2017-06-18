@@ -15,7 +15,7 @@ defaults:
       type: posts
     values:
       read_time: true
-      layout: default
+      layout: post
       comments: true
       related: true
       excerpt_separator: <!--more-->

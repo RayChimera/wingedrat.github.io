@@ -239,18 +239,17 @@ a.nostyle:visited {
   }
   
   .error-img {
-    height: none;
-    width: none;
-    margin-left: none;
+    height: initial;
+    margin-left: initial;
     display: block;
     margin: auto;
     width: 40%;
   }
 
   .error-text-div {
-    position: none;
-    bottom: none;
-    left: none;
+    position: initial;
+    bottom: initial;
+    left: initial;
     display: block;
     margin: auto;
     width: 40%;

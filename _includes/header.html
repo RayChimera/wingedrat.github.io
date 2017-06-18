@@ -1,3 +1,7 @@
+<script type="text/javascript">
+<!--
+if (mobile==True) {
+    document.write("
 <div class="header-sitename">
   <a href="/" class="nostyle"><p class="project-name lobster">{{ site.title | default: site.github.repository_name }}</p></a>
 </div>
@@ -14,3 +18,9 @@
   <a href="/contact" class="nostyle"><p class="lobster">Связаться</p></a>
 </div>
   |
+    ") ;
+} else {
+  document.write("<img src="/assets/images/interface/stack.svg")
+}
+//-->
+</script> 

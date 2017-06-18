@@ -4,12 +4,12 @@
     {% include head.html %}
   </head>
   <body>
+    {% include mobiledetect.html %}
     <section class="page-header">
       {% include header.html %}
     </section>
 
     <section class="main-content">
-      {% include mobiledetect.html %}
       {{ content }}
 
       <footer class="site-footer">

@@ -14,9 +14,7 @@ defaults:
       path: ""
       type: posts
     values:
-      read_time: true
       layout: post
       comments: true
-      related: true
-      excerpt_separator: "\n"
+      excerpt_separator: "\n\n"
 

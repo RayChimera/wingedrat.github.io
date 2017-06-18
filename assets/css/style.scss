@@ -79,13 +79,10 @@ ul.mobile-menu > li {
 ul.mobile-menu > li > a {
     display: block;
     padding: 10px;
+    padding-right: 20px;
     color: white;
     background-color: dimgrey;
     text-decoration: none;
-}
-
-ul.mobile-menu > li > a:hover {
-    text-decoration: underline;
 }
 
 /* Blocks */

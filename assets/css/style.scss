@@ -69,7 +69,6 @@ ul.mobile-menu {
     width: 150px;
     top: 52px;
     right: 0px;
-    background-color: white;
 }
 
 ul.mobile-menu > li {
@@ -185,11 +184,15 @@ ul.mobile-menu > li > a {
   margin-left: 50px;
 }
 
-.error-text {
+.error-text-div {
   display: inline-block;
   position: relative;
   bottom: 96px;
   left: 32px;
+}
+
+.error-text {
+  font-size:3rem;
 }
 
 .cut-preview-text {
@@ -233,5 +236,27 @@ a.nostyle:visited {
   
   .copyright {
   right:10%;
+  }
+  
+  .error-img {
+    height: none;
+    width: none;
+    margin-left: none;
+    display: block;
+    margin: auto;
+    width: 40%;
+  }
+
+  .error-text-div {
+    position: none;
+    bottom: none;
+    left: none;
+    display: block;
+    margin: auto;
+    width: 40%;
+  }
+  
+  .error-text {
+    font-size:1.5rem;
   }
 }

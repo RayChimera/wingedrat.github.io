@@ -48,7 +48,6 @@
 }
 
 .header-stack {
-  display: none;
   position: absolute;
   right: 0px;
   top: -4px;
@@ -171,15 +170,24 @@ a.nostyle:visited {
     color: inherit;
     cursor: auto;
 }
+/* Desktop */
+
+.desktop {
+  visibility: visible;
+}
+  
+.mobile {
+  visibility: hidden;
+}
 
 /* Mobile */
 
 @media screen and (max-width: 1080px) {
   .desktop {
-    display: none;
+    visibility: hidden;
   }
   
   .mobile {
-    display: inline;
+    visibility: visible;
   }
 }

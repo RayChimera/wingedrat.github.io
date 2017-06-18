@@ -18,5 +18,5 @@ defaults:
       layout: post
       comments: true
       related: true
-      excerpt_separator: <!--more-->
+      excerpt_separator: "\n"
 

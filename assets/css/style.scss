@@ -75,59 +75,63 @@
   display: inline-block;
   margin: 10px;
 }
+.copyright {
+  position:absolute;
+  right:20%;
+}
 
 /* Social icons */
 
 .facebook {
-  background-image: url(../../assets/images/social-aha/facebook.svg);
+  background-image: url(/assets/images/social-aha/facebook.svg);
 }
 
 .github {
-  background-image: url(../../assets/images/social-aha/github.svg);
+  background-image: url(/assets/images/social-aha/github.svg);
 }
 
 .googleplus {
-  background-image: url(../../assets/images/social-aha/google+.svg);
+  background-image: url(/assets/images/social-aha/google+.svg);
 }
 
 .lastfm {
-  background-image: url(../../assets/images/social-aha/lastfm.svg);
+  background-image: url(/assets/images/social-aha/lastfm.svg);
 }
 
 .linkedin {
-  background-image: url(../../assets/images/social-aha/linkedin.svg);
+  background-image: url(/assets/images/social-aha/linkedin.svg);
 }
 
 .mail {
-  background-image: url(../../assets/images/social-aha/mail.svg);
+  background-image: url(/assets/images/social-aha/mail.svg);
 }
 
 .reddit {
-  background-image: url(../../assets/images/social-aha/reddit.svg);
+  background-image: url(/assets/images/social-aha/reddit.svg);
 }
 
 .skype {
-  background-image: url(../../assets/images/social-aha/skype.svg);
+  background-image: url(/assets/images/social-aha/skype.svg);
 }
 
 .stackoverflow {
-  background-image: url(../../assets/images/social-aha/stackoverflow.svg);
+  background-image: url(/assets/images/social-aha/stackoverflow.svg);
 }
 
 .telegram {
-  background-image: url(../../assets/images/social-aha/telegram.svg);
+  background-image: url(/assets/images/social-aha/telegram.svg);
 }
 
 .twitter {
-  background-image: url(../../assets/images/social-aha/twitter.svg);
+  background-image: url(/assets/images/social-aha/twitter.svg);
 }
 
 .vk {
-  background-image: url(../../assets/images/social-aha/vk.svg);
+  background-image: url(/assets/images/social-aha/vk.svg);
 }
 
 .whatsapp {
-  background-image: url(../../assets/images/social-aha/whatsapp.svg);
+  background-image: url(/assets/images/social-aha/whatsapp.svg);
 }
 
 /* Other */
@@ -193,5 +197,9 @@ a.nostyle:visited {
   
   .mobile {
     visibility: visible;
+  }
+  
+  .copyright {
+  right:10%;
   }
 }

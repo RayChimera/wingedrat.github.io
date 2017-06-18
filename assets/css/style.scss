@@ -3,8 +3,21 @@
 
 @import 'jekyll-theme-cayman';
 
+font-family: 'Lobster', cursive;
+font-family: 'Lora', serif;
+
 ::-webkit-scrollbar { 
     display: none; 
+}
+
+/* Fonts */
+
+.lobster {
+  font-family: 'Lobster', cursive;
+}
+
+.lora {
+  font-family: 'Lora', serif;
 }
 
 /* Head */
@@ -16,10 +29,6 @@
   text-align: center;
   background-color: dimgrey;
   background-image: none;
-}
-
-.lobster {
-  font-family: 'Lobster', cursive;
 }
 
 .project-name {

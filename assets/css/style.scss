@@ -57,8 +57,35 @@
   top: -4px;
 }
 
-.header-stack > li:hover > ul.mobile-menu {
+/* Mobile menu */
+
+.header-stack:hover > ul.mobile-menu {
     display: block;
+}
+
+ul.mobile-menu {
+    display: none;
+    position: absolute;
+    width: 120px;
+    top: 52px;
+    right: 0px;
+    background-color: white;
+}
+
+ul.mobile-menu > li {
+    display: block;
+}
+
+ul.mobile-menu > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: dimgrey;
+    text-decoration: none;
+}
+
+ul.mobile-menu > li > a:hover {
+    text-decoration: underline;
 }
 
 /* Blocks */
@@ -181,30 +208,6 @@ a.nostyle:visited {
     text-decoration: inherit;
     color: inherit;
     cursor: auto;
-}
-
-ul.mobile-menu {
-    display: none;
-    position: absolute;
-    width: 120px;
-    top: 37px;
-    left: 0;
-    background-color: white;
-    border: 1px solid red;
-}
-
-ul.mobile-menu > li {
-    display: block;
-}
-ul.mobile-menu > li > a {
-    display: block;
-    padding: 10px;
-    color: white;
-    background-color: red;
-    text-decoration: none;
-}
-ul.mobile-menu > li > a:hover {
-    text-decoration: underline;
 }
 
 /* Desktop */

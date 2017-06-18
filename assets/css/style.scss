@@ -47,6 +47,10 @@
   padding: 4px;
 }
 
+.header-stack {
+  display: none;
+}
+
 /* Blocks */
 
 .category-block {
@@ -163,4 +167,14 @@ a.nostyle:visited {
     text-decoration: inherit;
     color: inherit;
     cursor: auto;
+}
+
+/* Mobile */
+
+@media screen and (max-width: 1080px) {
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: inline;
 }

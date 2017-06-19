@@ -109,7 +109,10 @@ ul.mobile-menu > li > a {
 
 .social-link-block {
   display: inline-block;
-  margin: 10px;
+  width: 96px;
+  height: 96px;
+  position: relative;
+  left: 28px;
 }
 .copyright {
   position:absolute;
@@ -177,10 +180,13 @@ ul.mobile-menu > li > a {
 }
 
 .network-icon {
-  width: 75px;
-  background-size: 75px;
+  width: 76px;
+  background-size: 76px;
   display: inline-block;
-  height: 75px;
+  height: 76px;
+  position: relative;
+  left: 10px;
+  top: 10px;
 }
 
 .error-img {
@@ -203,6 +209,11 @@ ul.mobile-menu > li > a {
 
 .cut-preview-text {
   padding-left: 3rem;
+}
+/* Hacks */
+
+.default-font-size {
+  font-size: 1rem;
 }
 
 /* From Stack: https://stackoverflow.com/questions/6868009/html-anchor-disable-style */
